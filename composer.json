@@ -54,7 +54,12 @@
 			"php": "8.0.0"
 		},
 		"preferred-install": "dist",
-		"sort-packages": true
+		"sort-packages": true,
+		"allow-plugins": {
+			"bamarni/composer-bin-plugin": true,
+			"neronmoon/scriptsdev": true,
+			"ergebnis/composer-normalize": true
+		}
 	},
 	"extra": {
 		"bamarni-bin": {
